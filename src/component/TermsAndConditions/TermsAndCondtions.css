@@ -1,0 +1,18 @@
+#terms-and-conditions-bg {
+  background-image: url("../../web-assets/bg-4.jpg");
+  height: 40vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.terms-and-c-li-Ele {
+  margin-top: 1rem;
+}
+.terms-and-c-parent-h {
+  font-weight: bold;
+}
+.termsAndCondtion img {
+  height: 80vh;
+  border-radius: 12px;
+}

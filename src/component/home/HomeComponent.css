@@ -1,0 +1,35 @@
+#home-bg {
+  background-image: url("../../web-assets/bg-4.jpg");
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.discover {
+  font-size: 140px;
+}
+
+.imageOne {
+  background-image: url("../../web-assets/location1.png");
+}
+
+.imageTwo {
+  background-image: url("../../web-assets/location2.png");
+}
+
+.imageThree {
+  background-image: url("../../web-assets/location3.png");
+}
+
+.imageFour {
+  background-image: url("../../web-assets/location4.png");
+}
+
+.imageFive {
+  background-image: url("../../web-assets/location5.png");
+}
+
+.imageSix {
+  background-image: url("../../web-assets/location6.png");
+}

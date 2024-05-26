@@ -1,0 +1,11 @@
+.mobile-navigation {
+  display: none;
+}
+
+.mobile-navigation.open {
+  display: block;
+}
+
+.mobile-menu-space {
+  margin-left: 1rem;
+}
