@@ -75,12 +75,6 @@ const HomeComponent = () => {
           </div>
         </section>
 
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
-
         <section class="section-box mt-70 mb-40">
           <div class="container">
             <div class="text-start">
