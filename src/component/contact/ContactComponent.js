@@ -17,6 +17,40 @@ const ContactComponent = () => {
     query: "",
   });
 
+ 
+  const sendMessage = async (event) => {
+    event.preventDefault();
+    if (validateForm()) {
+      try {
+        const response = await fetch("http://localhost:4000/api/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(contactData),
+        });
+
+        if (response.ok) {
+          alert("Message sent successfully!"); // Display success message
+          // Reset form fields after successful submission
+          setContactData({
+            name: "",
+            company: "",
+            email: "",
+            phone: "",
+            query: "",
+          });
+        } else {
+          const errorMessage = await response.text();
+          throw new Error(errorMessage || "An error occurred");
+        }
+      } catch (error) {
+        console.error("Error:", error);
+        alert("An error occurred. Please try again."); // Display error message
+      }
+    }
+  };
+
   const validateForm = () => {
     let isValid = true;
     const newErrors = { name: "", email: "", phone: "", query: "" };
@@ -55,17 +89,6 @@ const ContactComponent = () => {
     return isValid;
   };
 
-  const sendMessage = async (event) => {
-    event.preventDefault();
-    if (validateForm()) {
-      try {
-        // Call API
-      } catch (error) {
-        console.error("Error:", error);
-      }
-    }
-  };
-
   const handleChange = (event) => {
     const { name, value } = event.target;
     setContactData({ ...contactData, [name]: value });
@@ -87,6 +110,7 @@ const ContactComponent = () => {
     color: "red",
   };
 
+ 
   return (
     <>
       <main className="main">
@@ -101,8 +125,7 @@ const ContactComponent = () => {
                 <form
                   className="contact-form-style mt-30"
                   id="contact-form"
-                  action="#"
-                  method="post"
+                  onSubmit={sendMessage}
                 >
                   <div
                     className="row wow animate__animated animate__fadeInUp"
@@ -190,7 +213,6 @@ const ContactComponent = () => {
                         className="submit btn btn-send-message"
                         name="addContact"
                         type="submit"
-                        onClick={sendMessage}
                       >
                         Send message
                       </button>

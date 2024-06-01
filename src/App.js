@@ -21,6 +21,8 @@ const App = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contactus" element={<ContactScreen />} />
       </Routes>
+
+     
     </>
   );
 };
