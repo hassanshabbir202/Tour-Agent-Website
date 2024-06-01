@@ -3,6 +3,7 @@ import unitedState from "../../web-assets/us.jpg";
 import china from "../../web-assets/china.jpg";
 import germany from "../../web-assets/germany.jpg";
 import "./HomeComponent.css";
+import ChatB from "../chatbot/ChatB";
 
 const HomeComponent = () => {
   return (
@@ -317,6 +318,7 @@ const HomeComponent = () => {
           </div>
         </section>
       </main>
+      <ChatB />
     </>
   );
 };

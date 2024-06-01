@@ -10,6 +10,7 @@ import Gallery from "./component/gallery/Gallery";
 const App = () => {
   return (
     <>
+      
       <Routes>
         {/* Website Routes */}
         <Route path="/" element={<HomeScreen />} />
@@ -21,8 +22,6 @@ const App = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contactus" element={<ContactScreen />} />
       </Routes>
-
-     
     </>
   );
 };
