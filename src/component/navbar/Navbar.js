@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logoImg from "../../assets/logo.png"
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -11,14 +12,13 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="header sticky-bar">
+      <header className="header sticky-bar headerC">
         <div className="container">
           <div className="main-header">
             <div className="header-left">
               <div className="header-logo">
                 <a className="d-flex" href="/">
-                  {/* <img alt="jobBox" src={jobHubLogo} /> */}
-                  <h3>Your Logo</h3>
+                  <img src={logoImg} id="logo-img" alt="logo"/>
                 </a>
               </div>
             </div>

@@ -51,11 +51,11 @@ const steps = [
 const theme = {
   background: "lightblue",
   fontFamily: "Arial, sans-serif",
-  headerBgColor: "#3c65f5",
+  headerBgColor: "#ffa400",
   headerFontColor: "#FFFFFF", // Change header text color to white
   headerTitle: "#FFFFFF", // Change header text color to white
   headerFontSize: "22px",
-  botBubbleColor: "#3c65f5",
+  botBubbleColor: "#ffa400",
   botFontColor: "#FFFFFF",
   userBubbleColor: "#F4F4F4",
   userFontColor: "#4A4A4A",
