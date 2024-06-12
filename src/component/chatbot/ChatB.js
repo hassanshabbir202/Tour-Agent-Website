@@ -49,7 +49,7 @@ const steps = [
 ];
 
 const theme = {
-  background: "lightblue",
+  background: "#fff79c",
   fontFamily: "Arial, sans-serif",
   headerBgColor: "#ffa400",
   headerFontColor: "#FFFFFF", // Change header text color to white
@@ -73,7 +73,7 @@ const TravelAgentChatbot = () => {
   return (
     <div className="chatbot">
       <ThemeProvider theme={theme}>
-        <ChatBot headerTitle="Travel Agent Bot" steps={steps} {...config} />
+        <ChatBot headerTitle="ADVENTURE EASE" steps={steps} {...config} />
       </ThemeProvider>
     </div>
   );
