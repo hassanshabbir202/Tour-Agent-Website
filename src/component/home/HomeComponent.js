@@ -173,12 +173,12 @@ const HomeComponent = () => {
                     <div class="row">
                       <div class="col-lg-6 col-6">
                         <span class="text-14 color-text-paragraph-2">
-                          5 Vacancy
+                          5 Cities
                         </span>
                       </div>
                       <div class="col-lg-6 col-6 text-end">
                         <span class="color-text-paragraph-2 text-14">
-                          120 companies
+                          120 Destinies
                         </span>
                       </div>
                     </div>
@@ -200,12 +200,12 @@ const HomeComponent = () => {
                     <div class="row">
                       <div class="col-lg-6 col-6">
                         <span class="text-14 color-text-paragraph-2">
-                          7 Vacancy
+                          7 Cities
                         </span>
                       </div>
                       <div class="col-lg-6 col-6 text-end">
                         <span class="color-text-paragraph-2 text-14">
-                          68 companies
+                          68 Destinies
                         </span>
                       </div>
                     </div>
@@ -227,12 +227,12 @@ const HomeComponent = () => {
                     <div class="row">
                       <div class="col-lg-6 col-6">
                         <span class="text-14 color-text-paragraph-2">
-                          9 Vacancy
+                          9 Cities
                         </span>
                       </div>
                       <div class="col-lg-6 col-6 text-end">
                         <span class="color-text-paragraph-2 text-14">
-                          80 companies
+                          80 Destinies
                         </span>
                       </div>
                     </div>
@@ -252,12 +252,12 @@ const HomeComponent = () => {
                     <div class="row">
                       <div class="col-lg-6 col-6">
                         <span class="text-14 color-text-paragraph-2">
-                          16 Vacancy
+                          16 Cities
                         </span>
                       </div>
                       <div class="col-lg-6 col-6 text-end">
                         <span class="color-text-paragraph-2 text-14">
-                          86 companies
+                          86 Destinies
                         </span>
                       </div>
                     </div>
@@ -277,12 +277,12 @@ const HomeComponent = () => {
                     <div class="row">
                       <div class="col-lg-6 col-6">
                         <span class="text-14 color-text-paragraph-2">
-                          39 Vacancy
+                          39 Cities
                         </span>
                       </div>
                       <div class="col-lg-6 col-6 text-end">
                         <span class="color-text-paragraph-2 text-14">
-                          186 companies
+                          186 Destinies
                         </span>
                       </div>
                     </div>
@@ -302,12 +302,12 @@ const HomeComponent = () => {
                     <div class="row">
                       <div class="col-lg-6 col-6">
                         <span class="text-14 color-text-paragraph-2">
-                          15 Vacancy
+                          15 Cities
                         </span>
                       </div>
                       <div class="col-lg-6 col-6 text-end">
                         <span class="color-text-paragraph-2 text-14">
-                          632 companies
+                          632 Destinies
                         </span>
                       </div>
                     </div>

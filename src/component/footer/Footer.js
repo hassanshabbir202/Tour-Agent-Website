@@ -7,6 +7,27 @@ const Footer = () => {
 
   const handleSubscribe = async (event) => {
     event.preventDefault();
+    try {
+      const response = await fetch("http://localhost:4000/api/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+      const data = await response.json();
+      if (response.ok) {
+        // Subscription successful
+        setEmail(""); // Clear the email input field
+        alert(data.message); // Show success message
+      } else {
+        // Subscription failed
+        setErrorMessage(data.message); // Set error message
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setErrorMessage("Something went wrong. Please try again later.");
+    }
   };
 
   const handleChange = (event) => {
@@ -27,7 +48,7 @@ const Footer = () => {
                 <div className="d-inline-block text-start">
                   <h2 className="color-white">Subscribe our newsletter</h2>
                   <p className="mt-10 font-lg color-white">
-                    New Things Will Always Update Regularl
+                    New Things Will Always Update Regularly
                   </p>
                   <div className="box-form-newsletter mt-40">
                     <form
