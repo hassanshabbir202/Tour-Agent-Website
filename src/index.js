@@ -17,13 +17,17 @@ import "../src/assets/scss/components/_slider.scss";
 import "../src/assets/scss/components/_tabs.scss";
 import "../src/assets/css/style.css";
 import "../src/assets/css/style.css.map";
+import { Provider } from "react-redux";
+import { store } from "./redux/app/store";
 
 // Routing
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  <Provider store={store}>
     <BrowserRouter>
       <App />
     </BrowserRouter>
+    </Provider>
 );

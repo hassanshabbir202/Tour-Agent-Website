@@ -1,0 +1,12 @@
+.box-filters {
+    display: flex;        
+    gap: 10px;
+  }
+  .filterByPrice,
+  .filterByStartPoint {
+    background-color: #fff;
+    font-size: 14px;
+    padding: 0rem 0.5rem;
+    color: #a9acb8;
+  }
+ 
