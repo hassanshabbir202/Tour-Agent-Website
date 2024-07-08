@@ -212,7 +212,7 @@ const ViewDetailsComponent = () => {
                                     </span>
                                   </p>
 
-                                    <div className="my-4">
+                                    {/* <div className="my-4">
                                       <button
                                         className="button2 mb-2"
                                         onClick={() =>
@@ -235,7 +235,7 @@ const ViewDetailsComponent = () => {
                                       >
                                         Chat
                                       </button>
-                                    </div>
+                                    </div> */}
                              
                                 </div>
                               </div>
