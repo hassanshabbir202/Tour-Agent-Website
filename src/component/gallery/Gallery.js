@@ -8,7 +8,7 @@ const Gallery = () => {
       <Navbar />
       <main className="main main-gallery">
         <section class="section-box mt-30">
-        <h2 className="text-center">VIEW DESTINATIONS</h2>
+        <h2 className="text-center">TOP CITIES</h2>
           <div class="container">
             <div class="row mt-40">
               <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12">

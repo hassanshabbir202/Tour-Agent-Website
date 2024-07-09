@@ -80,7 +80,7 @@ const HomeComponent = () => {
           <div class="container">
             <div class="text-start">
               <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp text-center">
-                Top Destinations
+                Top Cities
               </h2>
               <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp text-center">
                 From the iconic landmarks of the United States and China to the
