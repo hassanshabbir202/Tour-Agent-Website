@@ -236,6 +236,8 @@ const ViewDetailsComponent = () => {
                                         Chat
                                       </button>
                                     </div> */}
+
+                                    <a href="#" style={{color:'#ffa400' , fontWeight:'bold'}}>Click this link to logIn, then enabled add to cart, wishlist, and chat.</a>
                              
                                 </div>
                               </div>

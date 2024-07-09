@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./../navbar/Navbar";
+import "./Gallery.css"
 
 const Gallery = () => {
   return (
@@ -11,12 +12,16 @@ const Gallery = () => {
           <div class="container">
             <div class="row mt-40">
               <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12">
-                <div class="card-image-top hover-up">
-                  <div class="image imageOne mb-0">
+              <div className="card-image-top hover-up">
+                  <div className="image imageOne mb-0">
                     <img
-                      src="https://media1.popsugar-assets.com/files/thumbor/s9ugwN90fkCtjBT7Tsd71bc7Z_U/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/02/17/838/n/1922441/f0bd144ded7b1bfd_shutterstock_89720368/i/Maldives.jpg"
-                      alt="imageOne"
+                      src="https://i.ytimg.com/vi/5es73zyKtwo/maxresdefault.jpg" // Multan
+                      alt=""
+                      style={{ height: "100%" }}
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Multan</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -24,9 +29,12 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageTwo mb-0">
                     <img
-                      src="https://www.solitarytraveller.com/wp-content/uploads/2020/07/reason_best_travel_spot_banner-min.jpg"
-                      alt="imageTwo"
+                      src="https://i.redd.it/rnec2kmryav21.jpg" // Lahore
+                      alt=""
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Lahore</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -34,9 +42,12 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageThree mb-0">
                     <img
-                      src="https://cdn.fodors.com/wp-content/uploads/2019/01/Maldives2.gif"
-                      alt="imageThree"
+                      src="https://i1.wp.com/www.travelwideflightsuk.co.uk/News/wp-content/uploads/2018/03/faisal-mosque.jpg?w=1024&ssl=1" // Islamabad
+                      alt=""
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Islamabad</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -44,9 +55,12 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageFour mb-0">
                     <img
-                      src="https://i.ytimg.com/vi/5w3aeQf4nkQ/maxresdefault.jpg"
-                      alt="imageFour"
+                      src="https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2020/08/Mazar-e-Quaid-D-14-08-640x400.jpg" // Karachi
+                      alt=""
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Karachi</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -54,9 +68,12 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageFive mb-0">
                     <img
-                      src="https://wallpaperaccess.com/full/444333.jpg"
-                      alt="imageFive"
+                      src="https://sayr.com.pk/uploads/images/image_750x_63c13600e90d5.jpg" // Skurdu
+                      alt=""
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Skurdu</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -64,9 +81,12 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageSix mb-0">
                     <img
-                      src="https://blogs.indiatailormade.com/wp-content/uploads/2018/11/shore-temple-640319518-58e3eaf25f9b58ef7e113e1f.jpg"
-                      alt="imageSix"
+                      src="https://www.zameen.com/blog/wp-content/uploads/2019/07/image-5-37-1024x640.jpg" // Swat
+                      alt=""
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Swat</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -75,9 +95,13 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageOne mb-0">
                     <img
-                      src="https://wallpapercave.com/wp/wp3103690.jpg"
-                      alt="imageSeven"
+                      src="http://media.cntraveller.in/wp-content/uploads/2014/02/Hyderabad3-Alamy-D9K7KC.jpg" // Hyderabad
+                      alt=""
+                      style={{height:'100%'}}
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Hyderabad</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -85,9 +109,12 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageTwo mb-0">
                     <img
-                      src="https://img.jakpost.net/c/2017/04/10/2017_04_10_24892_1491799434._large.jpg"
-                      alt="imageEight"
+                      src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/94/3a/7d/outdoor-pool.jpg?w=900&h=-1&s=1" // Mardan
+                      alt=""
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Mardan</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -95,9 +122,12 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageThree mb-0">
                     <img
-                      src="http://www.elitelimousines.it/images/FarEast-and-Australia/FarEastRev3.jpg"
-                      alt="imageNine"
+                      src="https://media-cdn.tripadvisor.com/media/photo-s/0f/d0/de/42/mughal-mahal-hotel-nightt.jpg" // Gujarnawala
+                      alt=""
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Gujarnawala</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -105,9 +135,12 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageFour mb-0">
                     <img
-                      src="https://wallpaperaccess.com/full/444452.jpg"
-                      alt="imageTen"
+                      src="https://blog.bridals.pk/wp-content/uploads/2017/11/ilyasi-mosque.jpg" // Abbottabad
+                      alt=""
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Abbottabad</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -115,9 +148,12 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageFive mb-0">
                     <img
-                      src="https://hdqwalls.com/wallpapers/amazing-beautiful-places.jpg"
-                      alt="imageEleven"
+                      src="https://res.cloudinary.com/raastay/images/w_1024,h_683,c_scale/f_auto,q_auto/v1657126294/Hanna-Lake-Raasty-1-1/Hanna-Lake-Raasty-1-1-1024x683.jpg?_i=AA" // Quetta
+                      alt=""
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Quetta</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -125,9 +161,12 @@ const Gallery = () => {
                 <div class="card-image-top hover-up">
                   <div class="image imageSix mb-0">
                     <img
-                      src="https://wallpapercave.com/wp/wp2655156.jpg"
-                      alt="imageTweleve"
+                      src="http://1.bp.blogspot.com/-hMg2BFbKnE8/Vs8nwDHHEZI/AAAAAAAAAho/CCfFPUUbOPw/s1600/5648829ac6847.jpg" // Sialkot
+                      alt=""
                     />
+                    <div className="overlay">
+                      <h3 className="overlay-text">Sialkot</h3>
+                    </div>
                   </div>
                 </div>
               </div>
