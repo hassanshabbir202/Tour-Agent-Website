@@ -1,7 +1,5 @@
 import React from "react";
-import unitedState from "../../web-assets/us.jpg";
 import china from "../../web-assets/china.jpg";
-import germany from "../../web-assets/germany.jpg";
 import "./HomeComponent.css";
 import ChatB from "../chatbot/ChatB";
 
@@ -80,11 +78,11 @@ const HomeComponent = () => {
           <div class="container">
             <div class="text-start">
               <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp text-center">
-                Top Cities
+                POPULAR DESTINATIONS
               </h2>
               <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp text-center">
-                From the iconic landmarks of the United States and China to the
-                vibrant cultures of India and Brazil
+                Popular destinations captivate travelers with their vibrant
+                cultures, stunning landscapes, and unforgettable experiences
               </p>
             </div>
             <div class="mt-70">
@@ -92,51 +90,63 @@ const HomeComponent = () => {
                 <div class="col-lg-4">
                   <div class="box-step step-1">
                     <h1 class="number-element">
-                      <img src={unitedState} alt="unitedState" />
+                      <img
+                        src="https://lh3.googleusercontent.com/-IAUTMSXFPEc/VurjZieLpcI/AAAAAAAADmQ/Ux27qQhoVzQ/s0/Skardu-2016-03-17%25252012%25253A16%25253A13.726173.jpg"
+                        style={{ borderRadius: "50%", height: "100%" }}
+                        alt="skurdu"
+                      />
                     </h1>
                     <h4 class="mb-20">
-                      United State
+                      Skardu
                       <br class="d-none d-lg-block" />
-                      (US)
+                      (SD)
                     </h4>
                     <p class="font-lg color-text-paragraph-2">
-                      Lorem ipsum dolor sit amet,
+                      Skardu, in Gilgit-Baltistan,is
                       <br class="d-none d-lg-block" />
-                      consectetur adipisicing elit, sed do{" "}
+                      famous for its stunning mountain scenery.
                     </p>
                   </div>
                 </div>
                 <div class="col-lg-4">
                   <div class="box-step step-2">
                     <h1 class="number-element">
-                      <img src={china} alt="China" />
+                      <img
+                        src="https://prestinetravels.com/wp-content/uploads/2021/06/Harnoi-Abbottabad-Pakistan.jpg"
+                        style={{ borderRadius: "50%", height: "100%" }}
+                        alt="Abbottabad"
+                      />
                     </h1>
                     <h4 class="mb-20">
-                      CHINA
+                      Abbottabad
                       <br class="d-none d-lg-block" />
-                      (CH)
+                      (AB)
                     </h4>
                     <p class="font-lg color-text-paragraph-2">
-                      Lorem ipsum dolor sit amet,
+                      Abbottabad, in northern Pakistan,
                       <br class="d-none d-lg-block" />
-                      consectetur adipisicing elit, sed do{" "}
+                      is known for its picturesque beauty .
                     </p>
                   </div>
                 </div>
                 <div class="col-lg-4">
                   <div class="box-step">
                     <h1 class="number-element">
-                      <img src={germany} alt="Germany"/>
+                      <img
+                        src="https://i0.wp.com/unusualplaces.org/wp-content/uploads/2018/11/kasmir.jpg"
+                        style={{ borderRadius: "50%", height: "100%" }}
+                        alt="Kashmir"
+                      />
                     </h1>
                     <h4 class="mb-20">
-                      GERMANY
+                      Kashmir
                       <br class="d-none d-lg-block" />
-                      (GM)
+                      (KM)
                     </h4>
                     <p class="font-lg color-text-paragraph-2">
-                      Lorem ipsum dolor sit amet,
+                      Kashmir, in the Himalayas, is renowned
                       <br class="d-none d-lg-block" />
-                      consectetur adipisicing elit, sed do{" "}
+                      for its breathtaking landscapes .
                     </p>
                   </div>
                 </div>
@@ -149,10 +159,11 @@ const HomeComponent = () => {
           <div class="container">
             <div class="text-center">
               <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">
-                Find Best Country
+                FIND BEST DESTINATIONS
               </h2>
               <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">
-                Find your favourite jobs and get the benefits of yourself
+                Find the best destinations for unforgettable travel experiences
+                and breathtaking adventures.
               </p>
             </div>
           </div>
@@ -162,15 +173,19 @@ const HomeComponent = () => {
                 <div class="card-image-top hover-up">
                   <a href="#">
                     <div class="image imageOne">
-                      <span class="lbl-hot">Hot</span>
+                    <img
+                      src="https://i.ytimg.com/vi/5es73zyKtwo/maxresdefault.jpg" // Multan
+                      alt=""
+                      style={{ height: "100%" }}
+                    />
+                      <span class="lbl-hot">Trending</span>
                     </div>
                   </a>
                   <div class="informations">
                     <a href="#">
-                      {" "}
-                      <h5>Paris, France</h5>
+                      <h5>Multan</h5>
                     </a>
-                    <div class="row">
+                    {/* <div class="row">
                       <div class="col-lg-6 col-6">
                         <span class="text-14 color-text-paragraph-2">
                           5 Cities
@@ -181,7 +196,7 @@ const HomeComponent = () => {
                           120 Destinies
                         </span>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -189,26 +204,17 @@ const HomeComponent = () => {
                 <div class="card-image-top hover-up">
                   <a href="#">
                     <div class="image imageTwo">
+                    <img
+                      src="https://i.redd.it/rnec2kmryav21.jpg" // Lahore
+                      alt=""
+                    />
                       <span class="lbl-hot">Trending</span>
                     </div>
                   </a>
                   <div class="informations">
                     <a href="#">
-                      {" "}
-                      <h5>London, England</h5>
+                      <h5>Lahore</h5>
                     </a>
-                    <div class="row">
-                      <div class="col-lg-6 col-6">
-                        <span class="text-14 color-text-paragraph-2">
-                          7 Cities
-                        </span>
-                      </div>
-                      <div class="col-lg-6 col-6 text-end">
-                        <span class="color-text-paragraph-2 text-14">
-                          68 Destinies
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -216,101 +222,67 @@ const HomeComponent = () => {
                 <div class="card-image-top hover-up">
                   <a href="#">
                     <div class="image imageThree">
-                      <span class="lbl-hot">Hot</span>
+                    <img
+                      src="https://i1.wp.com/www.travelwideflightsuk.co.uk/News/wp-content/uploads/2018/03/faisal-mosque.jpg?w=1024&ssl=1" // Islamabad
+                      alt=""
+                    />
                     </div>
                   </a>
                   <div class="informations">
                     <a href="#">
-                      {" "}
-                      <h5>New York, USA</h5>
+                      <h5>Islamabad</h5>
                     </a>
-                    <div class="row">
-                      <div class="col-lg-6 col-6">
-                        <span class="text-14 color-text-paragraph-2">
-                          9 Cities
-                        </span>
-                      </div>
-                      <div class="col-lg-6 col-6 text-end">
-                        <span class="color-text-paragraph-2 text-14">
-                          80 Destinies
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
                 <div class="card-image-top hover-up">
                   <a href="#">
-                    <div class="image imageFour"></div>
+                    <div class="image imageFour">
+                    <img
+                      src="https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2020/08/Mazar-e-Quaid-D-14-08-640x400.jpg" // Karachi
+                      alt=""
+                    />
+                    </div>
                   </a>
                   <div class="informations">
                     <a href="#">
-                      {" "}
-                      <h5>Amsterdam, Holland</h5>
+                      <h5>Karachi , Sindh</h5>
                     </a>
-                    <div class="row">
-                      <div class="col-lg-6 col-6">
-                        <span class="text-14 color-text-paragraph-2">
-                          16 Cities
-                        </span>
-                      </div>
-                      <div class="col-lg-6 col-6 text-end">
-                        <span class="color-text-paragraph-2 text-14">
-                          86 Destinies
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 col-12">
                 <div class="card-image-top hover-up">
                   <a href="#">
-                    <div class="image imageFive"></div>
+                    <div class="image imageFive">
+                    <img
+                      src="https://sayr.com.pk/uploads/images/image_750x_63c13600e90d5.jpg" // Skardu
+                      alt=""
+                    />
+                    </div>
                   </a>
                   <div class="informations">
                     <a href="#">
-                      {" "}
-                      <h5>Copenhagen, Denmark</h5>
+                      <h5>Skardu</h5>
                     </a>
-                    <div class="row">
-                      <div class="col-lg-6 col-6">
-                        <span class="text-14 color-text-paragraph-2">
-                          39 Cities
-                        </span>
-                      </div>
-                      <div class="col-lg-6 col-6 text-end">
-                        <span class="color-text-paragraph-2 text-14">
-                          186 Destinies
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12">
                 <div class="card-image-top hover-up">
                   <a href="#">
-                    <div class="image imageSix"></div>
+                    <div class="image imageSix">
+                    <img
+                      src="https://www.zameen.com/blog/wp-content/uploads/2019/07/image-5-37-1024x640.jpg" // Swat
+                      alt=""
+                    />
+                    </div>
                   </a>
                   <div class="informations">
                     <a href="#">
-                      {" "}
-                      <h5>Berlin, Germany</h5>
+                      <h5>Swat</h5>
                     </a>
-                    <div class="row">
-                      <div class="col-lg-6 col-6">
-                        <span class="text-14 color-text-paragraph-2">
-                          15 Cities
-                        </span>
-                      </div>
-                      <div class="col-lg-6 col-6 text-end">
-                        <span class="color-text-paragraph-2 text-14">
-                          632 Destinies
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>

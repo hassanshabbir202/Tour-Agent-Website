@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./../navbar/Navbar";
 import "./Gallery.css"
+import Footer from "../footer/Footer";
 
 const Gallery = () => {
   return (
@@ -8,7 +9,7 @@ const Gallery = () => {
       <Navbar />
       <main className="main main-gallery">
         <section class="section-box mt-30">
-        <h2 className="text-center">TOP CITIES</h2>
+        <h2 className="text-center">TOP DESTINATIONS</h2>
           <div class="container">
             <div class="row mt-40">
               <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12">
@@ -174,6 +175,7 @@ const Gallery = () => {
           </div>
         </section>
       </main>
+      <Footer/>
     </>
   );
 };
