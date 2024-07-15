@@ -1,6 +1,7 @@
 import React from "react";
 import "./TermsAndCondtions.css";
 import termsAndConditions from "../../web-assets/terms-and-conditions.jpg";
+import ChatB from "../chatbot/ChatB";
 
 const TermsAndConditionsComponent = () => {
   return (
@@ -80,6 +81,7 @@ const TermsAndConditionsComponent = () => {
           </div>
         </section>
       </main>
+      <ChatB/>
     </>
   );
 };

@@ -5,6 +5,7 @@ import { addToCart } from "../../redux/features/cart/CartSlice";
 import { useDispatch } from "react-redux";
 import Cookies from "js-cookie";
 import { ToastContainer, toast } from "react-toastify";
+import ChatB from "../chatbot/ChatB";
 
 const ViewDetailsComponent = () => {
   const [packageData, setPackageData] = useState(null);
@@ -98,7 +99,7 @@ const ViewDetailsComponent = () => {
 
   return (
     <>
-    <div className="box-content new-bx-content">
+      <div className="box-content new-bx-content">
         <div className="view-details-c-main">
           <div className="container">
             {/* <div className="box-heading">
@@ -106,12 +107,15 @@ const ViewDetailsComponent = () => {
                 <h3 className="mb-15 mx-4">Package Details</h3>
               </div>
             </div> */}
-            <div className="box-content" >
+            <div className="box-content">
               {packageData && (
                 <>
                   <div className="row new-row">
                     <div className="col-lg-8">
-                      <div className="section-box" style={{marginTop:'2rem'}}>
+                      <div
+                        className="section-box"
+                        style={{ marginTop: "2rem" }}
+                      >
                         <div className="container">
                           <div className="panel-white mb-30">
                             <div className="box-padding">
@@ -121,7 +125,7 @@ const ViewDetailsComponent = () => {
                                     src={packageData.packageImage}
                                     alt={packageData.packageName}
                                     className="w-55"
-                                    style={{borderRadius:'12px'}}
+                                    style={{ borderRadius: "12px" }}
                                   />
                                 </div>
                               </div>
@@ -133,16 +137,15 @@ const ViewDetailsComponent = () => {
                     <div className="col-lg-4">
                       <div
                         className="section-box"
-                        
                         style={{
                           backgroundColor: "#eaf2ff",
                           padding: "2rem .5rem",
-                          borderRadius:'12px',
-                          marginTop:'2rem'
+                          borderRadius: "12px",
+                          marginTop: "2rem",
                         }}
                       >
                         <div className="container">
-                          <div className="panel-white" >
+                          <div className="panel-white">
                             <div className="panel-head">
                               <h5>Package Details</h5>
                             </div>
@@ -212,7 +215,7 @@ const ViewDetailsComponent = () => {
                                     </span>
                                   </p>
 
-                                    {/* <div className="my-4">
+                                  {/* <div className="my-4">
                                       <button
                                         className="button2 mb-2"
                                         onClick={() =>
@@ -237,8 +240,16 @@ const ViewDetailsComponent = () => {
                                       </button>
                                     </div> */}
 
-                                    <a href="#" style={{color:'#ffa400' , fontWeight:'bold'}}>Click this link to logIn, then enabled add to cart, wishlist, and chat.</a>
-                             
+                                  <a
+                                    href="#"
+                                    style={{
+                                      color: "#ffa400",
+                                      fontWeight: "bold",
+                                    }}
+                                  >
+                                    Click this link to logIn, then enabled add
+                                    to cart, wishlist, and chat.
+                                  </a>
                                 </div>
                               </div>
                             </div>
@@ -254,6 +265,7 @@ const ViewDetailsComponent = () => {
         </div>
       </div>
       <ToastContainer />
+      <ChatB />
     </>
   );
 };

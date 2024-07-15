@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./../navbar/Navbar";
 import "./Gallery.css"
 import Footer from "../footer/Footer";
+import ChatB from "../chatbot/ChatB";
 
 const Gallery = () => {
   return (
@@ -176,6 +177,7 @@ const Gallery = () => {
         </section>
       </main>
       <Footer/>
+      <ChatB/>
     </>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import contactImage from "../../assets/imgs/page/contact/img.png";
+import ChatB from "../chatbot/ChatB";
 
 const ContactComponent = () => {
   const [contactData, setContactData] = useState({
@@ -227,6 +228,7 @@ const ContactComponent = () => {
           </div>
         </section>
       </main>
+      <ChatB/>
     </>
   );
 };

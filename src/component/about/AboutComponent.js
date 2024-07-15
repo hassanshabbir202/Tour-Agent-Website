@@ -1,6 +1,8 @@
 import React from "react";
 import firstAboutImage from "../../web-assets/first-about.jpg";
 import secondAboutImage from "../../web-assets/second-about.jpg";
+import ChatB from "../chatbot/ChatB";
+
 const AboutComponent = () => {
   return (
     <>
@@ -88,6 +90,7 @@ const AboutComponent = () => {
           </div>
         </section>
       </main>
+      <ChatB/>
     </>
   );
 };
