@@ -37,6 +37,9 @@ const Navbar = () => {
                   <li>
                     <Link to="/packages">All Packages</Link>
                   </li>
+                  <li>
+                    <Link to="/temperature">Temperature</Link>
+                  </li>
 
                   <li>
                     <Link to="/gallery">Gallery</Link>
