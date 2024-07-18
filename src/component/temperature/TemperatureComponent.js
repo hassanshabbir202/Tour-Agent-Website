@@ -164,7 +164,7 @@ const TemperatureComponent = () => {
     <>
       <div className="container">
        <div style={{margin:'0rem 0rem 4rem 0rem'}}>
-       <h3 className="mb-4 text-center">CURRENT TEMPERATURE</h3>
+       <h3 className="mb-4 text-center">CURRENT WEATHER CONDITIONS</h3>
        </div>
         <div className="row">
           <div className="col-xl-3 col-lg-4 col-md-6">
