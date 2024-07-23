@@ -48,6 +48,7 @@ const AboutComponent = () => {
             </div>
           </div>
         </section>
+        
         <section className="section-box mt-20">
           <div className="post-loop-grid">
             <div className="container">
